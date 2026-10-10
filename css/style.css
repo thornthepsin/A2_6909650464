@@ -1,5 +1,5 @@
 .badminton {
-    width: 300;
+    width: 300px;
     height: 200px;
 }
 h1 {
@@ -8,4 +8,12 @@ h1 {
 }
 h2{
     color: blue;
+}
+.Model{
+    width: 200px;
+    height: 200px;
+}
+.Xray{
+    width: 200px;
+    height: 200px;
 }
