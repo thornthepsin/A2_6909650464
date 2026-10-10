@@ -5,8 +5,13 @@
 h1 {
     text-decoration: underline;
     color: red;
+    text-align: center;
+    text-decoration: fw-bold ;
 }
 h2{
+    color: blue;
+}
+h3{
     color: blue;
 }
 .Model{
@@ -16,4 +21,20 @@ h2{
 .Xray{
     width: 200px;
     height: 200px;
+}
+.transparent-bubble {
+  background-color: rgba(255, 255, 255, 0.75) ;
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2rem ;
+  color: black
+}
+.bg-image-section {
+  background-image: url('../Media/Porshe.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  /* Ensures it takes up at least the full viewport height */
+  min-height: 100vh;
 }
